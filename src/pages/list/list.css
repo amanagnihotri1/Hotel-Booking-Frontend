@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Lato&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+body
+{
+    align-items:center;
+}
+.listContainer
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+.listWrapper
+{   padding-top: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.listSearch
+{  
+   flex-direction: column;
+   padding: 10px;
+   flex: 1;
+   background-color: #febb02; 
+   top: 10px;
+   width: 100%;
+   border-radius: 5px;
+   position: sticky;
+   height: fit-content;
+}
+.listResults
+{
+    display: flex;
+    justify-content:baseline;
+    flex: 4;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.lsTitle
+{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+#placename
+{
+    border-radius: 2px;
+    height: 30px;
+    border: none;
+}
+label
+{
+    font-size: 12px;
+}
+.lsitem
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+.lsitem>span
+{  
+    display: flex;
+    width: auto;
+    height: 25px;
+    padding: 6px 2px 6px 5px;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.lsOptionItem
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: rgb(80, 76, 76);
+    font-size: 12px;
+}
+.lsinput
+{
+    width: 50px;
+}
+.lsOptions
+{
+    padding: 10px;
+}
+.listSearch>button
+{
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 500;
+   text-align: center;
+    width: 100%;
+    background-color: #0071c2;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
